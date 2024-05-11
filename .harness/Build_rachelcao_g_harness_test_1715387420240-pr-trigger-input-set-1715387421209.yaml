@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rachelcao_g_harness_test_1715387420240-pr-trigger-input-set
+  identifier: Build_rachelcao_g_harness_test_1715387420240prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rachelcao_g_harness_test_1715387420240
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
