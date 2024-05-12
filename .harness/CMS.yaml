@@ -1,0 +1,14 @@
+inputSet:
+  name: CMS
+  identifier: CMS
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rachelcao_g_harness_test_1715387420240
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
